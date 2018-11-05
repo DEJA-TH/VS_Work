@@ -30,7 +30,7 @@ Public Class Data2
 
         If dt.Rows.Count > 0 Then
             Me.TextBox1.Text = strUser
-            Me.TextBox2.Text = dt.Rows(0)("Name")
+            Me.TextBox2.Text = dt.Rows(0)("Password")
             Me.TextBox3.Text = dt.Rows(0)("Email")
         End If
 
